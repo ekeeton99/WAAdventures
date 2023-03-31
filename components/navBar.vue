@@ -8,13 +8,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link to="/" class="nav-link">Home</router-link>
+                        <nuxt-link to="/" class="nav-link">Home</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/about" class="nav-link">About</router-link>
+                        <nuxt-link to="/about" class="nav-link">About</nuxt-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="/gallery" class="nav-link">Gallery</router-link>
+                        <nuxt-link to="/gallery" class="nav-link">Gallery</nuxt-link>
+                    </li>
+                    <li class="nav-item">
+                        <nuxt-link to="/weather" class="nav-link">Weather</nuxt-link>
                     </li>
                 </ul>
             </div>

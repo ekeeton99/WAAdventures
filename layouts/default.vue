@@ -51,7 +51,7 @@ footer {
   font-weight: 550;
 }
 
-body {
+html {
     background-color: rgb(104, 94, 85);
 }
 </style>
