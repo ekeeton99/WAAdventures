@@ -5,7 +5,7 @@
         <div class="accordion">
             <div class="accordion-item" v-for="(item, index) in items" :key="index">
                 <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse'+index" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse'+index" aria-expanded="true" aria-controls="collapseOne">
                     {{ item.title }}
                 </button>
                 </h2>
@@ -46,7 +46,7 @@
 
 <style scoped>
 .accordion-item {
-    margin: 1rem;
+    margin: 1rem 10rem;
 }
 .accordion-body {
     padding: 1rem;

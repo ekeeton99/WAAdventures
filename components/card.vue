@@ -11,6 +11,7 @@
 
 <script>
 export default {
+    name: 'card',
     props: {
         time: String,
         high: String,

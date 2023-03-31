@@ -1,13 +1,13 @@
 <template>
-    <div>
+    <div class="main-content">
         <h1>Weather</h1>
         <card
             v-for="(forecast, index) in forecasts"
             :key="index"
-            :time="daily.time"
-            :high="daily.temperature_2m_max"
-            :low="daily.temperature_2m_min"
-            :uv="daily.uv_index_max"
+            :time="forecast.time"
+            :high="forecast.temperature_2m_max"
+            :low="forecast.temperature_2m_min"
+            :uv="forecast.uv_index_max"
         />
     </div>
 </template>
@@ -24,7 +24,8 @@ export default {
         return {
             loading: true,
             weather: null,
-            errored: false
+            errored: false,
+            forecasts: []
         }
     },
     mounted() {
