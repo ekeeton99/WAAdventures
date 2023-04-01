@@ -21,7 +21,6 @@
         methods: {
             toggleBorder() {
                 this.isActive = !this.isActive;
-                console.log('test')
             }
         }
     }

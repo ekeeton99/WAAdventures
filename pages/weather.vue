@@ -2,12 +2,12 @@
     <div class="main-content">
         <h1>Weather</h1>
         <card
-            v-for="(forecast, index) in forecasts"
-            :key="index"
-            :time="forecast.time"
-            :high="forecast.temperature_2m_max"
-            :low="forecast.temperature_2m_min"
-            :uv="forecast.uv_index_max"
+            v-for="(forecast, key, index) in forecasts"
+            :key="key"
+            :time="forecasts['time'][index]"
+            :high="forecasts['temperature_2m_max'][index]"
+            :low="forecasts['temperature_2m_min'][index]"
+            :uv="forecasts['uv_index_max'][index]"
         />
     </div>
 </template>
