@@ -1,12 +1,15 @@
 <template>
     <div>
         <article
+        class="default"
         :class="[isActive ? 'highlight' : 'normal']" 
         @click="toggleBorder()">
-            <h3>{{ time }}</h3>
-            <p>High: {{ high }}°</p>
-            <p>Low: {{ low }}°</p>
-            <p>UV Index: {{ uv }}</p>
+            <div class="pt-3 pl-3 pr-3">
+                <h3>{{ time }}</h3>
+                <p>High: {{ high }}°</p>
+                <p>Low: {{ low }}°</p>
+                <p>UV Index: {{ uv }}</p>
+            </div>
         </article>
     </div>
 </template>
@@ -38,11 +41,14 @@ export default {
 
 <style>
 .highlight {
-    background-color: white;
-    border: 5px solid rgb(27, 194, 255);
+    border: 5px solid rgb(0, 202, 27);
 }
 .normal{
-    background-color: white;
     border: 3px solid rgb(6, 48, 7); 
+}
+.default {
+    margin: 1rem auto;
+    max-width: 70%;
+    background-color: white;
 }
 </style>
