@@ -41,7 +41,7 @@ export default {
 
 <style>
 .highlight {
-    border: 5px solid rgb(0, 202, 27);
+    border: 5px solid rgb(0, 186, 25);
 }
 .normal{
     border: 3px solid rgb(6, 48, 7); 
