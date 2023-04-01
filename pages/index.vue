@@ -31,7 +31,7 @@
           {
             hid: "description",
             name: "description",
-            content: "Discover new adventures"
+            content: "Discover new adventures in Washington state"
           }
         ]
       }

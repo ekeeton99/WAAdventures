@@ -29,5 +29,17 @@ import Images from '../components/imgGen.vue'
                 ]
             }
         },
+        head() {
+            return {
+                title: "Adventures Gallery",
+                meta: [
+                    {
+                        hid: "description",
+                        name: "description",
+                        content: "Photos from our users adventures"
+                    }
+                ]
+            }
+        }
     }
 </script>

@@ -39,6 +39,18 @@ export default {
                 console.log(error)
             })
             .finally(() => this.loading = false)
+    },
+    head() {
+      return {
+        title: "Weather in Washington",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content: "Check the forecast to help plan your adventures"
+          }
+        ]
+      }
     }
 }
 </script>

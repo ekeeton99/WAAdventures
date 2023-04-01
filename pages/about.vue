@@ -41,7 +41,19 @@
                 ]
             }
         },
-    };
+        head() {
+            return {
+                title: "About WAAdventures",
+                meta: [
+                    {
+                        hid: "description",
+                        name: "description",
+                        content: "Learn about us and our mission"
+                    }
+                ]
+            }
+        }
+    }
 </script>
 
 <style scoped>

@@ -1,0 +1,3 @@
+SEO and analytics are important for organic user traffic. Using h1-6 tags appropriately will boost site SEO and result in more traffic. Analytics are useful for knowing what users are doing on your site and where their attention is being drawn to. Knowing this can help you put important information in the right places to be seen. 
+
+I think if I were to impliment more SEO, I would add social tags to help with user sharing and generate more traffic. I would also research what terms are useful in meta data and include some of those. 
